@@ -1,0 +1,63 @@
+.file-card{
+    padding: 1.5rem 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.7);
+}
+
+.file-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}   
+
+.file-icon{
+    padding-top: 1rem;
+    font-size: 4rem;
+    color: var(--primary-bgcolor);
+}
+
+.file-detail{
+    padding: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.file-detail h3, .file-detail h5{
+ padding-bottom: 0.1rem;
+ flex-shrink: 1;
+}
+
+.file-detail h3{
+    font-size: 1.6rem;
+}
+
+.file-detail h5{
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.file-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.file-options :is(.download-icon, .trash-icon){
+    color: var(--primary-bgcolor);
+    cursor: pointer;
+}
+
+.file-options .download-icon{
+    font-size: 3rem;
+    
+}
+
+.file-options .trash-icon{
+    font-size: 2.1rem;
+}

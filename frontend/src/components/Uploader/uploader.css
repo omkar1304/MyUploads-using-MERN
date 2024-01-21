@@ -1,0 +1,135 @@
+.uploader-outer-box {
+  background-color: rgba(18, 20, 23, 0.1);
+  opacity: 0.95;
+  color: var(--primary-color);
+}
+
+.uploader-section {
+  padding: 3rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.uploader-section header {
+  margin: 2rem;
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.uploader-section form {
+  width: 35%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  border: 1px dashed var(--primary-bgcolor);
+}
+
+#file-input {
+  display: none;
+}
+
+.uploader-section form label {
+  cursor: pointer;
+}
+
+.upload-icon {
+  font-size: 10rem;
+  color: var(--primary-bgcolor);
+}
+
+.uploader-section form p {
+  padding: 0rem 1rem 1rem 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.uploader-section form span {
+  padding: 1rem 1rem 1rem 1rem;
+  font-size: 1.5rem;
+  color: var(--primary-bgcolor);
+}
+
+.uploader-section form button {
+  padding: 1rem 2rem;
+}
+
+.upload-loader{
+  padding-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.myfile-section {
+  margin: 3rem 4rem;
+}
+
+.myfile-section h4 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.nodata-section {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nodata-section img {
+  width: 18rem;
+  height: auto;
+}
+
+.nofiles-text {
+  text-align: center;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 650px) {
+  .uploader-section header {
+    font-size: 2.5rem;
+  }
+  .uploader-section form {
+    width: 45%;
+  }
+  .upload-icon {
+    font-size: 8rem;
+  }
+  .uploader-section form p {
+    font-size: 1.3rem;
+  }
+  .uploader-section form button{
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .uploader-section header {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .uploader-section header {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .uploader-section form {
+    width: 50%;
+  }
+  .upload-icon {
+    font-size: 6rem;
+  }
+  .uploader-section form p {
+    font-size: 1rem;
+  }
+}

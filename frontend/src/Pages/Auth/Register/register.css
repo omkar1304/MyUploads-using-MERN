@@ -1,0 +1,104 @@
+.register-section {
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  gap: 5rem;
+  background-color: rgba(18, 20, 23, 0.95);
+  color: var(--primary-color);
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 5rem 10rem;
+  border: 0.2rem solid var(--primary-bgcolor);
+  border-radius: 1.5rem;
+}
+
+.register-form h3 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.register-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.register-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-input input {
+  width: 30rem;
+  height: 5rem;
+  color: var(--secondary-color);
+  border-radius: 1rem;
+  padding: 0rem 2rem;
+  border: 1px solid #ffffff;
+}
+
+.register-input input:focus {
+  outline: none;
+  border-color: var(--primary-bgcolor);
+}
+
+form button {
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  font-weight: 700;
+  background-color: var(--primary-bgcolor);
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: var(--secondary-bgcolor);
+}
+
+.login-box {
+  font-size: 1.3rem;
+}
+
+.login-box .login-link {
+  padding: 0.3rem;
+  color: var(--primary-bgcolor);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .register-form {
+    padding: 3rem 7rem;
+  }
+
+  .register-form h3{
+    font-size: 4rem;
+  }
+
+  .register-input input{
+    width: 25rem;
+  }
+}
+
+
+@media screen and (max-width: 450px){
+  .register-form {
+    padding: 3rem 4rem;
+  }
+
+  .register-form h3{
+    font-size: 3.5rem;
+  }
+
+  .register-input input{
+    width: 22rem;
+  }
+}
